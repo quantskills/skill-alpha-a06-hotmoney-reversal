@@ -1,0 +1,7 @@
+{
+  "name": "alpha-a06",
+  "description": "A06 游资席位冷却反转与协同突破因子，使用 PandaData 与次日开盘可成交回测。",
+  "version": "1.0.0",
+  "entrypoint": "scripts/factor.py",
+  "tags": ["quant", "alpha", "development", "stock", "lhb"]
+}

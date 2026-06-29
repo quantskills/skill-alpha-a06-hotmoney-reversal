@@ -8,9 +8,8 @@ runtime_adapters: [codex, claude-code, cursor, hermes, openclaw]
 metadata:
   organization: QuantSkills
   organization_url: https://github.com/quantskills
-  repository: alpha-A06-hotmoney-reversal
-  repository_url: https://github.com/quantskills/alpha-A06-hotmoney-reversal
-  recommended_repository: skill-alpha-a06-hotmoney-reversal
+  repository: skill-alpha-a06-hotmoney-reversal
+  repository_url: https://github.com/quantskills/skill-alpha-a06-hotmoney-reversal
   project_type: skill
   collection: alpha
 ---
@@ -95,8 +94,7 @@ python scripts/build_release.py \
 
 - Repository type: QuantSkills skill repository.
 - Upstream organization: QuantSkills, https://github.com/quantskills.
-- Repository: https://github.com/quantskills/alpha-A06-hotmoney-reversal.
-- Recommended renamed repository: `skill-alpha-a06-hotmoney-reversal`.
+- Repository: https://github.com/quantskills/skill-alpha-a06-hotmoney-reversal.
 - License: GPL-3.0-only.
 - Maintainer: QuantSkills.
 - Sensitive data: do not commit credentials, tokens, proprietary data, user directories, or local absolute paths.

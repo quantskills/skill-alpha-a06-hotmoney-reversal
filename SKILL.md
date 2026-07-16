@@ -14,6 +14,32 @@ metadata:
   collection: alpha
 ---
 
+```json qsh-form
+{
+  "version": 1,
+  "task": {
+    "placeholder": "补充数据范围、回测区间、产物路径或具体问题（可选）",
+    "required": false
+  },
+  "fields": [
+    {
+      "key": "mode",
+      "label": "处理模式",
+      "type": "select",
+      "default": "inspect",
+      "options": [
+        { "value": "inspect", "label": "查询与解读" },
+        { "value": "calculate", "label": "计算因子" },
+        { "value": "validate", "label": "验证因子" },
+        { "value": "backtest", "label": "执行回测" },
+        { "value": "release", "label": "构建发布产物" }
+      ]
+    }
+  ],
+  "prompt_template": "{{#task}}任务与材料：\n{{task}}\n\n{{/task}}{{#attachments}}用户上传的材料（已放入工作区）：\n{{attachments}}\n\n{{/attachments}}按 {{mode}} 模式处理 A06 游资席位降温反转与协同突破因子，严格遵守信号于 t 日收盘后形成、t+1 开盘买入、t+2 收盘卖出的可执行口径，说明数据来源、泄漏与过拟合风险以及结果边界，输出中文报告。"
+}
+```
+
 # A06 Hot-Money Reversal Alpha Skill
 
 ## Purpose

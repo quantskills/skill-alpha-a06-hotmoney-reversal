@@ -162,3 +162,6 @@ python scripts/build_release.py \
 ## 📄 许可证
 
 本项目基于 GPLv3 许可证开源 - 详见 [LICENSE](LICENSE) 文件。
+
+
+Pandadata 兼容维护：[abgyjaguo](https://github.com/abgyjaguo)，保留原项目作者署名。

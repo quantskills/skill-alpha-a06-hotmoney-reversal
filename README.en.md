@@ -149,3 +149,6 @@ python scripts/update_production.py --full-refresh --bootstrap-start-date 202306
 ## 📄 License
 
 This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
+
+
+Pandadata compatibility maintenance: [abgyjaguo](https://github.com/abgyjaguo). Existing authorship is retained.

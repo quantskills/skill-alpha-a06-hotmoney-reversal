@@ -124,3 +124,7 @@ python scripts/build_release.py \
 - License: GPL-3.0-only.
 - Maintainer: QuantSkills.
 - Sensitive data: do not commit credentials, tokens, proprietary data, user directories, or local absolute paths.
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.
